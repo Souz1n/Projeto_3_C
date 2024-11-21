@@ -28,6 +28,14 @@ o Vender criptomoedas (com validação de senha e confirmação).
 
 o Atualizar cotação das criptomoedas (variação aleatória de até ±5%).
 
+o Cadastro de novo investidor: o usuário informa nome, CPF e senha do novo investidor;
+
+o Excluir investidor: o usuário informa o CPF do investidor. O programa exibe os dados encontrados para o CPF e pede a confirmação para realizar a exclusão;
+
+o Cadastro de criptomoeda: devem ser informados nome, cotação inicial, taxa de compra e taxa de venda;
+
+o Excluir criptomoeda: usuário deve informa o nome da criptomoeda. O programa exibE os dados da moeda e pede a confirmação da exclusão;
+
 ## FORMA DE USO DO PROGRAMA
 
 Login: O usuário deve fornecer seu CPF e SENHA para acessar o sistema.
@@ -53,7 +61,11 @@ O projeto contém os seguintes arquivos principais:
 ## Como Compilar
 Para compilar os programas, utilize os seguintes comandos:
 
+usuario:
 gcc -o programa1 main.c funcoes.c login.c usuario.c
+
+admin:
+gcc -o programa2 main.c funcoes.c loginadm.c administrador.c
 
 ## Rodar o projeto usuario/adm:
 
